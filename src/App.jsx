@@ -3,6 +3,8 @@ import React, { useState } from "react";
 function App() {
     const [input, setInput] = useState("");
     const [list, setList] = useState([]);
+    const [originalLink, setOriginalLink] = useState('');
+    const [shortenedLink, setShortenedLink] = useState('');
 
     const handleInputChange = (e) => {
         setInput(e.target.value); //this function will take the value wrtitten in text bar and set as in setInput function 
