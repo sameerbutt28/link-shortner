@@ -7,9 +7,9 @@ function App() {
     const handleInputChange = (e) => {
         setInput(e.target.value); //this function will take the value wrtitten in text bar and set as in setInput function 
     };
-
+  
     const handleList = () => {
-        if (input) {
+        if (input) {  
             setList([...list, input]);
             setInput("");
         }
