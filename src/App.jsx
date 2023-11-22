@@ -16,7 +16,7 @@ const LinkShortener = () => {
 
       if (response.ok) {
         const data = await response.json();
-        setShortenedLink(data.result_url);
+        setShortenedLink(data.result_url); 
       } else {
         console.error('Error shortening link:', response.statusText);
       }
