@@ -23,7 +23,7 @@ const LinkShortener = () => {
             "url": "http://google.com/"
           }
         })
-        ;  
+        ;    
 
       if (response.ok) {
         const data = await response.json();
