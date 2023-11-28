@@ -13,7 +13,7 @@ const LinkShortener = () => {
     try {
       const url_s = 'http://localhost:3000';
 
-      const response = await fetch(url_s, {
+      const response = await fetch(url_s, { 
         method: 'POST', // Specify the HTTP method as POST
         headers: {
           'Content-Type': 'application/json', // Set the content type to JSON
