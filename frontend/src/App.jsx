@@ -11,7 +11,7 @@ const LinkShortener = () => {
 
   const shortenLink = async () => { 
     try {
-      const url_s = 'http://localhost:3000';
+      const url_s = 'http://localhost:3000';  
 
       const response = await fetch(url_s, { 
         method: 'POST',
