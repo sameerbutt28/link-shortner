@@ -9,7 +9,7 @@ const LinkShortener = () => {
     setInputLink(e.target.value);
   };
 
-  const shortenLink = async () => {
+  const shortenLink = async () => { 
     try {
       const url_s = 'http://localhost:3000';
 
