@@ -15,9 +15,7 @@ const LinkShortener = () => {
 
       const response = await fetch(url_s, { 
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json', 
-        },
+       
         body: JSON.stringify({
           url: inputLink, 
         }),
