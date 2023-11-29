@@ -5,7 +5,7 @@ const LinkShortener = () => {
   const [inputLink, setInputLink] = useState('');
   const [shortenedLink, setShortenedLink] = useState('');
 
-  const handleChange = (e) => {
+  const handleChange = (e) => {  
     setInputLink(e.target.value);
   };
 
