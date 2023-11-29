@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node your-entry-file.js"
+    "start": "node index.js"
   }
+  
+  
   ,
   "author": "",
   "license": "ISC"
