@@ -14,12 +14,12 @@ const LinkShortener = () => {
       const url_s = 'http://localhost:3000';
 
       const response = await fetch(url_s, { 
-        method: 'POST', // Specify the HTTP method as POST
+        method: 'POST',
         headers: {
-          'Content-Type': 'application/json', // Set the content type to JSON
+          'Content-Type': 'application/json', 
         },
         body: JSON.stringify({
-          url: inputLink, // Use the inputLink state here
+          url: inputLink, 
         }),
       });
 

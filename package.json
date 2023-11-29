@@ -1,0 +1,12 @@
+{
+  "name": "link-shortner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node your-entry-file.js"
+  }
+  ,
+  "author": "",
+  "license": "ISC"
+}
